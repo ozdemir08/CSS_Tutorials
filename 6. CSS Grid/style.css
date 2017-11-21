@@ -1,0 +1,30 @@
+.grid {
+  border: 2px blue solid;
+  /*width varies*/
+  height: 500px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / 3fr minmax(50px, 300px) 1fr;
+  /*grid-row-gap: 20px;
+  grid-column-gap: 5px;*/
+  grid-gap: 20px 5px;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/*.grid {
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  display: grid;
+  /*grid-template-columns: 100px 50% 200px;
+  grid-template-rows: 40% 50% 50px;*/
+  /*grid-template: 40% 50% 50px / 100px 50% 200px ;*/
+  /*grid-template: 40% 50% 50px / 3fr 50% 1fr ;*/
+  /*grid-template: 1fr 1fr 1fr / 3fr 50% 1fr;*/
+  grid-template: repeat(3, 1fr) / 3fr 50% 1fr;
+}*/
